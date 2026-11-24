@@ -3,7 +3,7 @@ package session
 import (
 	"log/slog"
 
-	"github.com/danni2019/starSling/internal/config"
+	"github.com/danni2019/starsling-tui/internal/config"
 )
 
 type Status struct {

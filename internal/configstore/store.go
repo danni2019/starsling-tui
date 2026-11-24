@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/danni2019/starSling/internal/config"
+	"github.com/danni2019/starsling-tui/internal/config"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/danni2019/starSling
+module github.com/danni2019/starsling-tui
 
 go 1.25
 

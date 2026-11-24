@@ -11,10 +11,10 @@ import (
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
 
-	"github.com/danni2019/starSling/internal/ipc"
-	"github.com/danni2019/starSling/internal/live"
-	"github.com/danni2019/starSling/internal/metadata"
-	"github.com/danni2019/starSling/internal/router"
+	"github.com/danni2019/starsling-tui/internal/ipc"
+	"github.com/danni2019/starsling-tui/internal/live"
+	"github.com/danni2019/starsling-tui/internal/metadata"
+	"github.com/danni2019/starsling-tui/internal/router"
 )
 
 type testContractResolver struct {

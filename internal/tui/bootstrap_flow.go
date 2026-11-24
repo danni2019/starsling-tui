@@ -3,8 +3,8 @@ package tui
 import (
 	"strings"
 
-	"github.com/danni2019/starSling/internal/live"
-	internalruntime "github.com/danni2019/starSling/internal/runtime"
+	"github.com/danni2019/starsling-tui/internal/live"
+	internalruntime "github.com/danni2019/starsling-tui/internal/runtime"
 )
 
 var (

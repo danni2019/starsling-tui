@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/danni2019/starSling/internal/doctor"
-	"github.com/danni2019/starSling/internal/logging"
-	"github.com/danni2019/starSling/internal/router"
-	"github.com/danni2019/starSling/internal/tui"
+	"github.com/danni2019/starsling-tui/internal/doctor"
+	"github.com/danni2019/starsling-tui/internal/logging"
+	"github.com/danni2019/starsling-tui/internal/router"
+	"github.com/danni2019/starsling-tui/internal/tui"
 )
 
 func main() {
@@ -32,8 +32,18 @@ func runCommand(args []string, stdout, stderr io.Writer) int {
 	switch args[0] {
 	case "doctor":
 		return runDoctorCommand(args[1:], stdout, stderr)
+	case "demo":
+		if len(args) != 1 {
+			fmt.Fprintln(stderr, "usage: starsling demo")
+			return 2
+		}
+		if err := tui.RunDemo(); err != nil {
+			fmt.Fprintln(stderr, err)
+			return 1
+		}
+		return 0
 	default:
-		fmt.Fprintf(stderr, "unknown command: %s\nusage: starsling [doctor]\n", args[0])
+		fmt.Fprintf(stderr, "unknown command: %s\nusage: starsling [demo|doctor]\n", args[0])
 		return 2
 	}
 }

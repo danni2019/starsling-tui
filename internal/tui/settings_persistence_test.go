@@ -3,7 +3,7 @@ package tui
 import (
 	"testing"
 
-	"github.com/danni2019/starSling/internal/settingsstore"
+	"github.com/danni2019/starsling-tui/internal/settingsstore"
 )
 
 func TestLivePersistedSettingsLoadGenerationInvalidation(t *testing.T) {

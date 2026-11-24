@@ -19,14 +19,14 @@ import (
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
 
-	"github.com/danni2019/starSling/internal/config"
-	"github.com/danni2019/starSling/internal/configstore"
-	"github.com/danni2019/starSling/internal/ipc"
-	"github.com/danni2019/starSling/internal/live"
-	"github.com/danni2019/starSling/internal/logging"
-	"github.com/danni2019/starSling/internal/metadata"
-	"github.com/danni2019/starSling/internal/router"
-	"github.com/danni2019/starSling/internal/settingsstore"
+	"github.com/danni2019/starsling-tui/internal/config"
+	"github.com/danni2019/starsling-tui/internal/configstore"
+	"github.com/danni2019/starsling-tui/internal/ipc"
+	"github.com/danni2019/starsling-tui/internal/live"
+	"github.com/danni2019/starsling-tui/internal/logging"
+	"github.com/danni2019/starsling-tui/internal/metadata"
+	"github.com/danni2019/starsling-tui/internal/router"
+	"github.com/danni2019/starsling-tui/internal/settingsstore"
 )
 
 type screen string

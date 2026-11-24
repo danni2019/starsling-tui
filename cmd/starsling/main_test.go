@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/danni2019/starSling/internal/doctor"
+	"github.com/danni2019/starsling-tui/internal/doctor"
 )
 
 func TestRunDoctorCommandOutputsReport(t *testing.T) {
@@ -73,7 +73,7 @@ func TestRunUnknownCommand(t *testing.T) {
 	if code != 2 {
 		t.Fatalf("expected exit code 2, got %d", code)
 	}
-	if !strings.Contains(stderr.String(), "usage: starsling [doctor]") {
+	if !strings.Contains(stderr.String(), "usage: starsling [demo|doctor]") {
 		t.Fatalf("unexpected stderr: %q", stderr.String())
 	}
 }

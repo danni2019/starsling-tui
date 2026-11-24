@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/danni2019/starSling/internal/strategy"
+	"github.com/danni2019/starsling-tui/internal/strategy"
 )
 
 type Registry struct {

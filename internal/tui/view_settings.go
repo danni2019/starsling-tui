@@ -8,7 +8,7 @@ import (
 
 	"github.com/rivo/tview"
 
-	"github.com/danni2019/starSling/internal/settingsstore"
+	"github.com/danni2019/starsling-tui/internal/settingsstore"
 )
 
 func (ui *UI) buildSettingsScreen() tview.Primitive {

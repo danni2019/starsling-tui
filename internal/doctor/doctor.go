@@ -5,12 +5,12 @@ import (
 	"io"
 	"strings"
 
-	"github.com/danni2019/starSling/internal/config"
-	"github.com/danni2019/starSling/internal/configstore"
-	"github.com/danni2019/starSling/internal/live"
-	"github.com/danni2019/starSling/internal/metadata"
-	internalruntime "github.com/danni2019/starSling/internal/runtime"
-	"github.com/danni2019/starSling/internal/settingsstore"
+	"github.com/danni2019/starsling-tui/internal/config"
+	"github.com/danni2019/starsling-tui/internal/configstore"
+	"github.com/danni2019/starsling-tui/internal/live"
+	"github.com/danni2019/starsling-tui/internal/metadata"
+	internalruntime "github.com/danni2019/starsling-tui/internal/runtime"
+	"github.com/danni2019/starsling-tui/internal/settingsstore"
 )
 
 type Severity string

@@ -10,8 +10,8 @@ import (
 
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/huh"
-	"github.com/danni2019/starSling/internal/config"
-	"github.com/danni2019/starSling/internal/metadata"
+	"github.com/danni2019/starsling-tui/internal/config"
+	"github.com/danni2019/starsling-tui/internal/metadata"
 )
 
 const (

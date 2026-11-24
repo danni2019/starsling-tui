@@ -10,7 +10,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/danni2019/starSling/internal/ipc"
+	"github.com/danni2019/starsling-tui/internal/ipc"
 )
 
 type Server struct {

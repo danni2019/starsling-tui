@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/danni2019/starSling/internal/settingsstore"
+	"github.com/danni2019/starsling-tui/internal/settingsstore"
 )
 
 //go:embed options_worker.py

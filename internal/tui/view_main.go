@@ -6,7 +6,7 @@ import (
 
 	"github.com/rivo/tview"
 
-	"github.com/danni2019/starSling/internal/configstore"
+	"github.com/danni2019/starsling-tui/internal/configstore"
 )
 
 func (ui *UI) buildMainScreen() tview.Primitive {
@@ -24,7 +24,7 @@ func (ui *UI) buildMainScreen() tview.Primitive {
 	author.SetTextAlign(tview.AlignCenter)
 	author.SetTextColor(colorMuted)
 	author.SetBackgroundColor(colorBackground)
-	author.SetText("by Yang | github: danni2019/starSling | email: 54765205+danni2019@users.noreply.github.com")
+	author.SetText("by Yang | github.com/danni2019/starsling-tui")
 
 	ui.divider = tview.NewTextView()
 	ui.divider.SetTextAlign(tview.AlignLeft)

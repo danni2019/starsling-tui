@@ -6,8 +6,8 @@ import (
 
 	"github.com/rivo/tview"
 
-	"github.com/danni2019/starSling/internal/config"
-	"github.com/danni2019/starSling/internal/configstore"
+	"github.com/danni2019/starsling-tui/internal/config"
+	"github.com/danni2019/starsling-tui/internal/configstore"
 )
 
 func TestOpenLiveScreenFromMainBlocksPlaceholderConfig(t *testing.T) {

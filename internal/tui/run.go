@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/danni2019/starSling/internal/metadata"
+	"github.com/danni2019/starsling-tui/internal/metadata"
 )
 
 func Run(ctx context.Context, routerAddr string, logger *slog.Logger) int {

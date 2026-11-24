@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danni2019/starSling/internal/metadata"
+	"github.com/danni2019/starsling-tui/internal/metadata"
 )
 
 func TestEnsureLiveMetadataReadyRefreshesWhenMappingsMissing(t *testing.T) {

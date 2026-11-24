@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/danni2019/starSling/internal/ipc"
+	"github.com/danni2019/starsling-tui/internal/ipc"
 )
 
 func TestRouterMarketSnapshotRoundTrip(t *testing.T) {
